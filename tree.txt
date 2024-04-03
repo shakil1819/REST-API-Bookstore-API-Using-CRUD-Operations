@@ -1,0 +1,17 @@
+ Volume in drive C has no label.
+ Volume Serial Number is AA2D-CA30
+
+ Directory of C:\tmp\NodeJS-BookStore
+
+Wed-03-Apr-24  21:32    <DIR>          .
+Wed-03-Apr-24  21:32    <DIR>          ..
+Wed-03-Apr-24  21:15                20 .gitignore
+Wed-03-Apr-24  21:15            82,983 package-lock.json
+Wed-03-Apr-24  21:15               655 package.json
+Wed-03-Apr-24  21:15    <DIR>          public
+Wed-03-Apr-24  21:15             1,728 readme.md
+Wed-03-Apr-24  21:15    <DIR>          src
+Wed-03-Apr-24  21:32                 0 tree.txt
+Wed-03-Apr-24  21:15    <DIR>          views
+               5 File(s)         85,386 bytes
+               5 Dir(s)  65,162,723,328 bytes free

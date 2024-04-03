@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  bookstore-api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./public:/app/public
+      - ./src:/app/src
+      - ./views:/app/views
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: "mongo:latest"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=1819
+
+volumes:
+  mongo-data:
